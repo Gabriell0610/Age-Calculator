@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scriptsjs/main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="form">
+          <label class="label-requerid">Day</label>
+          <input type="text" placeholder="DD" id="dia" class="requerid" />
+          <span class="span-requerid"></span>
+        </div>
+        <div class="form">
+          <label class="label-requerid">Month</label>
+          <input type="text" placeholder="MM" id="mes" class="requerid" minlength="1" maxlength="2" />
+          <span class="span-requerid"></span>
+        </div>
+        <div class="form">
+          <label class="label-requerid">Year</label>
+          <input
+            type="text"
+            placeholder="YY"
+            id="ano"
+            class="requerid"
+            maxlength="4"
+            minlength="4"
+          />
+          <span class="span-requerid"></span>
+        </div>
+
+        <div class="circle" id="button">
+          <img src="assets/images/icon-arrow.svg" alt="" />
+        </div>
+      </div>
+
+      <div id="content">
+        <h2 class="desc" id="year"><span class="number">- -</span>years</h2>
+        <h2 class="desc" id="month"><span class="number">- -</span>month</h2>
+        <h2 class="desc" id="day"><span class="number">- -</span>days</h2>
+      </div>
+    </main>
+  </body>
+</html>

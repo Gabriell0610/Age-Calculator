@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana
+}
+
+@import './partials/_color.scss';
+@import './partials/_layout';
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background-color: $-off-white;
+    width: 100%;
+    padding: 1;
+    
+}
+
