@@ -29,7 +29,7 @@ const idadePessoa = () => {
     if(mesAtual >= mesNascimento) { // Ex: Mês atual é 10 e mês em que eu nasci é 6
         meses = mesAtual - mesNascimento; // 10 - 6 = 4
     }else {// Se mês de nascimento for maior que mês atual
-        meses = 12 - (mesNascimento - mesAtual); // Mês 11 - mês atual 10 = 1 // 12 - 1 = 11
+        meses = 12 - (mesNascimento - mesAtual); // Mês de nascimento 11 - mês atual 10 = 1 // 12 - 1 = 11
         idade--; // Como o mês de aniversário ainda não ocorreu, a idade subtrai 1
     }
 
@@ -66,7 +66,6 @@ button.addEventListener('click', () => {
 const spanRequerid = document.querySelectorAll('.span-requerid');
 const input = document.querySelectorAll('.requerid');
 const label = document.querySelectorAll('.label-requerid');
-const form = document.querySelectorAll('.form')
 
 //Função de erro e validação
 function setError(index, errorMensage) {
