@@ -1,6 +1,6 @@
 ## Projeto simples de Calculadora de idade
 
-Projeto feito para estudar Dom com Javascript, e diversos outras estruturas
+Projeto feito para estudar Dom, validação com formulário e diversas outras estruturas
 
 ### Tecnologias 
 - HTML
